@@ -1,0 +1,92 @@
+# ==============================
+# Python (Django Backend)
+# ==============================
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+
+# Django-specific files
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyCharm files
+.idea/
+*.iml
+
+# ==============================
+# Node.js (Next.js Frontend)
+# ==============================
+# Dependency directories
+node_modules/
+.jspm/
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Environment variables
+.env*
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+*.code-workspace
+
+# ==============================
+# General
+# ==============================
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Hidden files
+.*
+!.gitignore
+!.env.example
+
+# Large media files (optional)
+# If you want to exclude uploaded media files from Git
+# Uncomment the following line:
+# media/
